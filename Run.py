@@ -1,4 +1,4 @@
-# Load enviroment
+# Load environment
 !pip install transformers
 !pip install sentencepiece
 !pip install datasets
