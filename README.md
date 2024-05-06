@@ -14,10 +14,10 @@ The management of translations is documented in Table x***, while the handling o
 
 
 
-##Model functioning tips
+## Model functioning tips
 Hiero-transformer is a useful tool, but it could generate inaccurate results, especially if the input provided isn't correct. Users need to be aware of this and able to distinguish any potential machine-generated mistakes. To help you get better output using Hiero-transformer, here are some tips. 
 
-###Hieroglyphic input
+### Hieroglyphic input
 To provide Hiero-transformer with hieroglyphs, you will need to use the Gardiner code. This code requires some preparation.
 (i) Cleanse your hieroglyphs: Remove any brackets, letters, or graphic signs attached to them, like you might see working with Jsesh~{Jsesh}.
 (ii) Separate hieroglyphs: Use spaces to separate individual hieroglyphs and erase any other character.
@@ -26,7 +26,7 @@ Keep in mind that the model is trained on Old and Middle Egyptian hieroglyphs. I
 For best results, we recommend using a sign list like Gardiner's~{gardiner_grammar} or, even better, Allen's~{allen_grammar}.
 
 
-###Transliteration input
+### Transliteration input
 To provide Hiero-transformer with transliteration, you will need to use the same conventions used by the TLA.
 - Capitalization: Proper nouns need to be capitalized.
 - Hyphens: You need to use hyphens (-) to separate individual words within proper nouns (e.g., sḥtp-jb-rꜥ) or concepts (e.g., wꜣḏ-wr). Otherwise, the model will translate them as separate words.
