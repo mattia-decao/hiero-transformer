@@ -39,6 +39,9 @@ You can provide characters in transliteration either in Unicode (the standard en
 - **Capital letters**: Add an asterisk (*) directly before the letter you want to capitalize. For example, using the MdC system, to get a capitalized _ḏ_, type _*D_ (instead of _D_); similarly, to get a capitalized _d_, type _*d_.
 - **Weak radical yod (_i̯_)**: Type _i_ to insert this character.
 
+##Cleaning operations
+###Table 1: Translations
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
