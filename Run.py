@@ -1,27 +1,9 @@
-# Load environment
-!pip install transformers
-!pip install sentencepiece
-!pip install datasets
-
-import json
-import string
+# Load environment and model
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
-import pickle
-import os
-import re
-import numpy as np
-import shutil
-import pandas as pd
-import datasets
-import transformers
-import itertools
-import random
-from collections import defaultdict
-from pprint import pprint
-from tqdm.auto import tqdm, trange
-from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 
-# Here you can load the model
+tokenizer = AutoTokenizer.from_pretrained("mattiadc/hiero-transformer")
+model = AutoModelForSeq2SeqLM.from_pretrained("mattiadc/hiero-transformer").to('cuda:0').eval()
 
 # Traduction
 #@title Traduction
@@ -32,7 +14,7 @@ sentence_input = '*ra m p,t' #@param {type:"string"}
 # resulted_input_tnt = '' #@param {type:"string"}
 all_outputs = True #@param {type:"boolean"}
 
-# Se si desidera mettere le maiuscole (per i nomi) basta aggiungere * prima del termine della traslitterazione
+# If you desire to add capital letters (e.g. in proper names) you need to add the asterisk * before the letter you want to capitalize in the transliteration
 
 if language_input == 'tnt':
   sentence_input = (sentence_input
