@@ -1,10 +1,1 @@
-# Cleansing operations
-## work in progress
 
-This comprehensive compendium of the cleansing operations includes detailed descriptions, treatment methods, and underlying motivations.
-
-###Table x: Translations
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
