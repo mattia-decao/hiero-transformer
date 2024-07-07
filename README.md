@@ -1,13 +1,13 @@
-# hiero-transformer
-## work in progress
+# hiero-transformer (work in progress)
+## Cleansing operations
 
-Every cleaning operation was meticulously documented along with a concise description highlighting its purpose, implementation, and the rationale behind its choice. These operations were compiled into tables, incorporating the regular symbol expression ".*?" to depict an undefined sequence of words, numbers, and/or graphic symbols.
+Every cleansing operation was meticulously documented along with a concise description highlighting its purpose, implementation, and the rationale behind its choice. These operations were compiled into tables, incorporating the regular symbol expression ".*?" to depict an undefined sequence of words, numbers, and/or graphic symbols.
 
 Furthermore, any text found in the _Subject_ section was retained entirely, including spaces. At the same time, any of our annotations were enclosed within brackets not present in the TLA dataset, specifically "(£" "£)".
 
-The meanings of cleaned characters were primarily derived from the MdC~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
+*** The meanings of cleaned characters were primarily derived from the MdC~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
 
-In the ***"Cleaning operations" file, you can find the management of translations, transliterations, Gardiner code and part-of-speech.
+*** In the "Cleaning operations" file, you can find the management of translations, transliterations, Gardiner code and part-of-speech.
 
 
 ## Model functioning tips
