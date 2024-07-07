@@ -7,11 +7,7 @@ Furthermore, any text found in the _Subject_ section was retained entirely, incl
 
 The meanings of cleaned characters were primarily derived from the MdC~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
 
-The management of translations is documented in Table x***, while the handling of transliterations is recorded in Table y***. The processing of Gardiner code is detailed in Table z***, and the treatment of parts of speech is presented in Table k***.
-
-
-***++tabelle di descrizione delle operazioni di pulizia
-
+In the ***"Cleaning operations" file, you can find the management of translations, transliterations, Gardiner code and part-of-speech.
 
 
 ## Model functioning tips
@@ -38,11 +34,3 @@ To provide Hiero-transformer with transliteration, you will need to use the same
 You can provide characters in transliteration either in Unicode (the standard encoding) or according to the computer transcription of the Manuel de Codage~{manuel_de_codage} (a hieroglyphs-specific encoding system that does not make use of special characters). Furthermore, we ensured the insertion of other characters.
 - **Capital letters**: Add an asterisk (*) directly before the letter you want to capitalize. For example, using the MdC system, to get a capitalized _ḏ_, type _*D_ (instead of _D_); similarly, to get a capitalized _d_, type _*d_.
 - **Weak radical yod (_i̯_)**: Type _i_ to insert this character.
-
-## Cleaning operations
-### Table 1: Translations
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
