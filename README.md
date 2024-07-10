@@ -5,20 +5,20 @@ Every cleansing operation was meticulously documented along with a concise descr
 
 Furthermore, any text found in the _Subject_ section was retained entirely, including spaces. At the same time, any of our annotations were enclosed within brackets not present in the TLA dataset, specifically "(£" "£)".
 
-*** The meanings of cleaned characters were primarily derived from the MdC~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
+*** The meanings of cleaned characters were primarily derived from the Manuel de Codage~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
 
-*** In the "Cleansing operations" file, you can find the management of translations, transliterations, Gardiner code and part-of-speech.
+The "cleansing_operations.pdf" file contains the management of translations, transliterations, Gardiner code and part-of-speech.
 
 
 ## Model functioning tips
 Hiero-transformer is a useful tool, but it could generate inaccurate results, especially if the input provided isn't correct. Users need to be aware of this and able to distinguish any potential machine-generated mistakes. To help you get better output using Hiero-transformer, here are some tips. 
 
 ### Hieroglyphic input
-To provide hieroglyphs to Hiero-transformer, you will need to use the Gardiner code. This code requires some preparation.
+You will need to use the Gardiner code to provide hieroglyphs to Hiero-transformer. This code requires some preparation.
 - **Cleaning:** Remove any brackets, graphic signs, or letters (which are not part of the hieroglyph) attached to them, like you might see working with Jsesh~{Jsesh}.
 - **Separation:** Use spaces to separate individual hieroglyphs and erase any other character.
 
-Keep in mind that the model is trained on Old and Middle Egyptian hieroglyphs. It might struggle with later stages of the language or grammatical forms developed after the Second Intermediate Period.
+Remember that the model is trained on Old and Middle Egyptian hieroglyphs. It might struggle with later stages of the language or grammatical forms developed after the Second Intermediate Period.
 For best results, we recommend using a sign list like Gardiner's~{gardiner_grammar} or, even better, Allen's~{allen_grammar}.
 
 
