@@ -1,11 +1,19 @@
 # hiero-transformer (work in progress)
+This repository collects additional information for our article _Deep Learning Meets Egyptology: a Hieroglyphic Transformer for Translating Ancient Egyptian_ (De Cao et al. 2024). In particular, here you can find:
+- the complete list of the cleansing operations used to clean the data before the model training;
+- advice on how to enter the input, both from hieroglyphs and transliteration;
+- the examples and the analysis of the human evaluation;
+- the code we used to clean, train, evaluate and run the data and the model.
+
+The model is also on Huggingface: https://huggingface.co/mattiadc/hiero-transformer
+
 ## Cleansing operations
 
 Every cleansing operation was meticulously documented along with a concise description highlighting its purpose, implementation, and the rationale behind its choice. These operations were compiled into tables, incorporating the regular symbol expression ".*?" to depict an undefined sequence of words, numbers, and/or graphic symbols.
 
-Furthermore, any text found in the _Subject_ section was retained entirely, including spaces. At the same time, any of our annotations were enclosed within brackets not present in the TLA dataset, specifically "(£" "£)".
+Furthermore, any text found in the _Subject_ section was retained entirely, including spaces. At the same time, all of our annotations were enclosed within brackets not present in the TLA dataset, specifically "(£" "£)".
 
-*** The meanings of cleaned characters were primarily derived from the Manuel de Codage~\citep{MdC} conventions. Others were extracted from the Berlin Text System 3.1 (V 3.0) user manual~\citep{berlin_text_system}.
+The meanings of the cleaning procedures were derived from the Manuel de Codage (Buurman et al. 1988; Hans Van Den Berg) conventions, the Berlin Text System 3.1 (V 3.0) user manual (Kupreyev and Sperveslage 2011), or realized by us.
 
 The "cleansing_operations.pdf" file contains the management of translations, transliterations, Gardiner code and part-of-speech.
 
@@ -37,4 +45,15 @@ You can provide characters in transliteration either in Unicode (the standard en
 
 
 ## Human evaluation examples and analysis
-*** Spiega qualcosa e po metti un reminder per segnalare di guardare un file che carichi a parte come il Cleansing operations.
+As soon as possible, we will add a PDF file in which we have analyzed all the examples we worked on.
+
+
+## References
+
+Mattia De Cao, Nicola De Cao, Angelo Colonna, and Alessandro Lenci. 2024. Deep Learning Meets Egyptology: a Hieroglyphic Transformer for Translating Ancient Egyptian. In _Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)_, pages 71–86, Hybrid in Bangkok, Thailand and online. Association for Computational Linguistics.
+
+Jan Buurman, Nicolas-Christophe Grimal, Michale Hainsworth, Jochen Hallof, and Dirk Van der Plas. 1988. Inventaire des signes hieroglyphiques en vue de leur saisie informatique: Manuel de codage des textes  ieroglyphiques en vue de leur saisie sur ordinateur, volume 2 of Informatique et egyptologie. Imprimerie Lienharte et Cie.; Difussion Boccard, Paris.
+
+Hans Van Den Berg, _“Manuel de Codage” A standard system for the computerencoding of Egyptian transliteration and hieroglyphic texts_, <http://www.catchpenny.org/codage/> (last access: 28 July 2023).
+
+Maxim Kupreyev and Gunnar Sperveslage. 2011.  _Berlin Text System 3.1 User Manual: Editorial Software of the Thesaurus Linguae Aegyptiae Project_.
