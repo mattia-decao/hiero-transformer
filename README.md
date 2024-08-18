@@ -13,7 +13,7 @@ Every cleansing operation was meticulously documented along with a concise descr
 
 Furthermore, any text found in the _Subject_ section was retained entirely, including spaces. At the same time, all of our annotations were enclosed within brackets not present in the TLA dataset, specifically "(£" "£)".
 
-The meanings of the cleaning procedures were derived from the Manuel de Codage (Buurman et al. 1988; Hans Van Den Berg) conventions, the Berlin Text System 3.1 (V 3.0) user manual (Kupreyev and Sperveslage 2011), or realized by us.
+The meanings of the cleaning procedures were derived from the _Manuel de Codage_ (Buurman et al. 1988; Hans Van Den Berg) conventions, the _Berlin Text System 3.1 (V 3.0) user manual_ (Kupreyev and Sperveslage 2011), or realized by us.
 
 The "cleansing_operations.pdf" file contains the management of translations, transliterations, Gardiner code and part-of-speech.
 
