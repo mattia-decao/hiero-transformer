@@ -52,14 +52,14 @@ As soon as possible, we will add a PDF file in which we have analyzed all the ex
 
 Mattia De Cao, Nicola De Cao, Angelo Colonna, and Alessandro Lenci. 2024. Deep Learning Meets Egyptology: a Hieroglyphic Transformer for Translating Ancient Egyptian. In _Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)_, pages 71–86, Hybrid in Bangkok, Thailand and online. Association for Computational Linguistics.
 
-Jan Buurman, Nicolas-Christophe Grimal, Michale Hainsworth, Jochen Hallof, and Dirk Van der Plas. 1988. _Inventaire des signes hieroglyphiques en vue de leur saisie informatique: Manuel de codage des textes  ieroglyphiques en vue de leur saisie sur ordinateur_, volume 2 of _Informatique et egyptologie_. Imprimerie Lienharte et Cie.; Difussion Boccard, Paris.
+Jan Buurman, Nicolas-Christophe Grimal, Michale Hainsworth, Jochen Hallof, and Dirk Van der Plas. 1988. _Inventaire des signes hieroglyphiques en vue de leur saisie informatique: Manuel de codage des textes  ieroglyphiques en vue de leur saisie sur ordinateur_, volume 2 of _Informatique et egyptologie_. Imprimerie Lienharte et Cie.; Difussion Boccard, Paris.
 
-Hans Van Den Berg, _“Manuel de Codage” A standard system for the computerencoding of Egyptian transliteration and hieroglyphic texts_, <http://www.catchpenny.org/codage/> (last access: 28 July 2023).
+Hans Van Den Berg, _“Manuel de Codage” A standard system for the computer encoding of Egyptian transliteration and hieroglyphic texts_, <http://www.catchpenny.org/codage/> (last access: 28 July 2023).
 
 Maxim Kupreyev and Gunnar Sperveslage. 2011.  _Berlin Text System 3.1 User Manual: Editorial Software of the Thesaurus Linguae Aegyptiae Project_.
 
 Alan H. Gardiner. 1957. _Egyptian Grammar, Being an Introduction to the Study of Hieroglyphs_, third edition. Griffith Institute, Oxford.
 
-James P. Allen. 2014. _Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs_, 3 edition. Cambridge University Press.
+James P. Allen. 2014. _Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs_, 3 edition. Cambridge University Press.
 
 Serge Rosmorduc, _JSesh Documentation_, <http://jseshdoc.qenherkhopeshef.org> (last access 09 September 2023).
