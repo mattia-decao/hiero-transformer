@@ -15,7 +15,7 @@ Furthermore, any text found in the _Subject_ section was retained entirely, incl
 
 The meanings of the cleaning procedures were derived from the _Manuel de Codage_ (Buurman et al. 1988; Hans Van Den Berg) conventions, the _Berlin Text System 3.1 (V 3.0) user manual_ (Kupreyev and Sperveslage 2011), or realized by us.
 
-The "cleansing_operations.pdf" file contains the management of translations, transliterations, Gardiner code and part-of-speech.
+The "cleansing_operations.pdf" file contains the management of translations, transliterations, Gardiner code and part-of-speech tags.
 
 
 ## Model functioning tips
