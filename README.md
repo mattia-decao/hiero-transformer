@@ -23,11 +23,11 @@ Hiero-transformer is a useful tool, but it could generate inaccurate results, es
 
 ### Hieroglyphic input
 You will need to use the Gardiner code to provide hieroglyphs to Hiero-transformer. This code requires some preparation.
-- **Cleaning:** Remove any brackets, graphic signs, or letters (which are not part of the hieroglyph) attached to them, like you might see working with Jsesh~{Jsesh}.
+- **Cleaning:** Remove any brackets, graphic signs, or letters (which are not part of the hieroglyph) attached to them, like you might see working with Jsesh (Rosmorduc).
 - **Separation:** Use spaces to separate individual hieroglyphs and erase any other character.
 
 Remember that the model is trained on Old and Middle Egyptian hieroglyphs. It might struggle with later stages of the language or grammatical forms developed after the Second Intermediate Period.
-For best results, we recommend using a sign list like Gardiner's~{gardiner_grammar} or, even better, Allen's~{allen_grammar}.
+For best results, we recommend using a sign list like Gardiner's (Gardiner 1957) or, even better, Allen's (Allen 2014).
 
 
 ### Transliteration input
@@ -39,7 +39,7 @@ To provide Hiero-transformer with transliteration, you will need to use the same
 - **Dots:** Use a dot to separate the verb root and the suffixes (other than pronouns). For example, in the form _sḏm.n =f_, the dot separates _sḏm_ (root) from _n_ (suffix other than pronoun). Dots may also be used for plural/dual forms.
 - **Commas:** Commas are used for the feminine suffix and may also be used for plural/dual forms.
 
-You can provide characters in transliteration either in Unicode (the standard encoding) or according to the computer transcription of the Manuel de Codage~{manuel_de_codage} (a hieroglyphs-specific encoding system that does not make use of special characters). Furthermore, we ensured the insertion of other characters.
+You can provide characters in transliteration either in Unicode (the standard encoding) or according to the computer transcription of the Manuel de Codage (a hieroglyphs-specific encoding system that does not make use of special characters). Furthermore, we ensured the insertion of other characters.
 - **Capital letters**: Add an asterisk (*) directly before the letter you want to capitalize. For example, using the MdC system, to get a capitalized _ḏ_, type _*D_ (instead of _D_); similarly, to get a capitalized _d_, type _*d_.
 - **Weak radical yod ( _i̯_ )**: Type _i_ to insert this character.
 
@@ -57,3 +57,9 @@ Jan Buurman, Nicolas-Christophe Grimal, Michale Hainsworth, Jochen Hallof, and D
 Hans Van Den Berg, _“Manuel de Codage” A standard system for the computerencoding of Egyptian transliteration and hieroglyphic texts_, <http://www.catchpenny.org/codage/> (last access: 28 July 2023).
 
 Maxim Kupreyev and Gunnar Sperveslage. 2011.  _Berlin Text System 3.1 User Manual: Editorial Software of the Thesaurus Linguae Aegyptiae Project_.
+
+Alan H. Gardiner. 1957. _Egyptian Grammar, Being an Introduction to the Study of Hieroglyphs_, third edition. Griffith Institute, Oxford.
+
+James P. Allen. 2014. _Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs_, 3 edition. Cambridge University Press.
+
+Serge Rosmorduc, _JSesh Documentation_, <http://jseshdoc.qenherkhopeshef.org> (last access 09 September 2023).
