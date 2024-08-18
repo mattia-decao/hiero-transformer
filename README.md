@@ -33,7 +33,7 @@ To provide Hiero-transformer with transliteration, you will need to use the same
 
 You can provide characters in transliteration either in Unicode (the standard encoding) or according to the computer transcription of the Manuel de Codage~{manuel_de_codage} (a hieroglyphs-specific encoding system that does not make use of special characters). Furthermore, we ensured the insertion of other characters.
 - **Capital letters**: Add an asterisk (*) directly before the letter you want to capitalize. For example, using the MdC system, to get a capitalized _ḏ_, type _*D_ (instead of _D_); similarly, to get a capitalized _d_, type _*d_.
-- **Weak radical yod (_i̯_)**: Type _i_ to insert this character.
+- **Weak radical yod ( _i̯_ )**: Type _i_ to insert this character.
 
 
 ## Human evaluation examples and analysis
