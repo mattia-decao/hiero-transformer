@@ -63,3 +63,9 @@ Alan H. Gardiner. 1957. _Egyptian Grammar, Being an Introduction to the Study of
 James P. Allen. 2014. _Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs_, 3 edition. Cambridge University Press.
 
 Serge Rosmorduc, _JSesh Documentation_, <http://jseshdoc.qenherkhopeshef.org> (last access 09 September 2023).
+
+## Data source reference
+
+Database snapshot of project "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache" (excerpt from January 2018), 2018, 
+ed. by Tonio Sebastian Richter & Ingelore Hafemann on behalf of the Berlin-Brandenburgische Akademie der Wissenschaften and Hans-Werner Fischer-Elfert & Peter Dils on behalf of the Sächsische Akademie der Wissenschaften zu Leipzig, 
+urn:nbn:de:kobv:b4-opus4-29190, https://nbn-resolving.org/urn:nbn:de:kobv:b4-opus4-29190 (CC BY-SA 4.0 Int.)
