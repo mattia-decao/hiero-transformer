@@ -7,6 +7,15 @@ This repository collects additional information for our article _Deep Learning M
 
 The model is also on Huggingface: https://huggingface.co/mattiadc/hiero-transformer
 
+## Explanation of ".py" files
+
+Four files collect our code: Run.py, inference.py, train.py, utils.py.
+
+- **Run.py:** Collects the code to load the environment and the model, as well as an input form we created to facilitate the input entry to the model. To use Run.py beware to divide the environment loading from the input form.
+- **inference.py:** Collects the code we used to load the test.data, generate the predictions and calculate the metrics.
+- **train.py:** Collects the code we used to load the model, the variables, the data and to train the model.
+- **utils.py:** Collects various code of the training functions, and the code we used to process, filter and clean the data.
+
 ## Cleansing operations
 
 Every cleansing operation was meticulously documented along with a concise description highlighting its purpose, implementation, and the rationale behind its choice. These operations were compiled into tables, incorporating the regular symbol expression ".*?" to depict an undefined sequence of words, numbers, and/or graphic symbols.
