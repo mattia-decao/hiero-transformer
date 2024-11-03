@@ -1,4 +1,4 @@
-# hiero-transformer (work in progress)
+# hiero-transformer
 This repository collects additional information for our article _Deep Learning Meets Egyptology: a Hieroglyphic Transformer for Translating Ancient Egyptian_ (De Cao et al. 2024). In particular, here you can find:
 - the complete list of the cleansing operations used to clean the data before the model training;
 - advice on how to enter the input, both from hieroglyphs and transliteration;
